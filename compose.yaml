@@ -1,0 +1,12 @@
+﻿services:
+  quizpollapi:
+    image: quizpollapi
+    build:
+      context: .
+      dockerfile: QuizPollApi/Dockerfile
+
+  webapplication1:
+    image: webapplication1
+    build:
+      context: .
+      dockerfile: WebApplication1/Dockerfile
