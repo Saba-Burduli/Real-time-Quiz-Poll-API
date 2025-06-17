@@ -17,4 +17,14 @@
       </Content>
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Analytics\Queries\" />
+      <Folder Include="Features\Quizzes\Commands\" />
+      <Folder Include="Features\Quizzes\Queries\" />
+      <Folder Include="Questions\Commands\" />
+      <Folder Include="Questions\Queries\" />
+      <Folder Include="Responses\Commands\" />
+      <Folder Include="Responses\Queries\" />
+    </ItemGroup>
+
 </Project>
