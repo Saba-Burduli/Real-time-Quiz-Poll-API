@@ -1,6 +1,3 @@
 namespace Domain.Entities.Questions;
 
-public class QuestionId
-{
-    
-}
+public record QuestionId(Guid Value);
