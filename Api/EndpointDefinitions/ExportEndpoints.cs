@@ -27,7 +27,7 @@ public class ExportEndpoints : IEndpointDefinition
     
     private async Task<IResult> ExportQuiz(IMediator mediator, IExportServiceProvider exportServiceProvider, string format, string fileName, Guid quizId)
     {
-        var getQuiz = new GetQuizById(new Quiz(quizId));
+        var getQuiz = new GetQuizById(new QuizId(quizId)); // maybe Quiz(quizId)
         var quiz = await mediator.Send(getQuiz);
 
         var exporter = exportServiceProvider.GetExportService(format);
