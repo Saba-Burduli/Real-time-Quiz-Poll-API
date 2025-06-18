@@ -3,12 +3,12 @@ using Application.Abstractions.Export;
 using CsvHelper;
 using CsvHelper.Configuration;
 using Domain.Entities.Quizzes;
+using Domain.ValueObjects;
 
 namespace Infrastructure.Providers;
 
-public class CsvExportService
-{
-    [Export(typeof(IExportService))]
+
+    // [Export(typeof(IExportService))]
     public class CsvExportService : IExportService
     {
         public string Format => "text/csv";
@@ -36,4 +36,5 @@ public class CsvExportService
 
             return memoryStream.ToArray();
         }
-}
+        
+        }
