@@ -37,4 +37,4 @@ namespace Infrastructure.Providers;
             return memoryStream.ToArray();
         }
         
-        }
+    }
