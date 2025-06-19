@@ -35,29 +35,6 @@ A powerful, scalable Quiz & Poll backend API built with **ASP.NET 9**, leveragin
 
 ---
 
-## 🏗️ Architecture Overview
-
-```bash
-QuizPollApi/
-├── Features/
-│   ├── Quizzes/         # Quiz commands & queries
-│   ├── Questions/       # Question-related logic
-│   ├── Responses/       # Submitting and retrieving answers
-│   └── Analytics/       # Reports and statistics
-├── Infrastructure/
-│   ├── Persistence/     # EF Core DbContext and configurations
-│   ├── Services/        # Cache, RateLimit, Analytics services
-│   └── SignalR/         # Hub and interfaces
-├── Common/
-│   ├── CQRS/            # Interfaces for GDRS (Generic Data Request Separation)
-│   └── Extensions/      # Helpers
-├── Program.cs
-├── Dockerfile
-└── docker-compose.yml
-```
-
----
-
 ## 🧱 Patterns Used
 
 ### ✅ CQRS (via MediatR)
@@ -111,23 +88,6 @@ Swagger UI: `http://localhost:5000/swagger`
 
 * Export quiz results with headers, answers, timestamps
 * Formats: `CSV`, `JSON`
-
----
-
-## 🛡️ Security
-
-* CAPTCHA-ready for public voting endpoints
-* Rate-limiting via Redis
-* IP-based duplicate voting detection
-
----
-
-## 🔮 Future Ideas
-
-* User accounts, auth roles
-* Admin dashboard with SignalR analytics
-* Heatmap visualizations
-* Custom poll themes/styles
 
 ---
 
