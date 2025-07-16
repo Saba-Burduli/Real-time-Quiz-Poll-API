@@ -4,9 +4,9 @@ A powerful, scalable Quiz & Poll backend API built with **ASP.NET 9**, leveragin
 
 ---
 
-## 🚀 Features
+##  Features
 
-### ✅ Core Functionalities
+###  Core Functionalities
 
 * Create quizzes with multiple question types (single/multiple choice, rating, text, image-based)
 * Public or private quizzes (via code)
@@ -15,14 +15,14 @@ A powerful, scalable Quiz & Poll backend API built with **ASP.NET 9**, leveragin
 * IP-based duplicate prevention & rate limiting
 * Export results in **CSV** or JSON
 
-### 📊 Analytics
+###  Analytics
 
 * Real-time voting stats
 * Per-question statistics
 * Demographics support (future-ready)
 * Response heatmaps (future-ready)
 
-### ⚙️ Tech Stack
+###  Tech Stack
 
 * **.NET 9** Web API
 * **PostgreSQL** – main database
@@ -35,21 +35,21 @@ A powerful, scalable Quiz & Poll backend API built with **ASP.NET 9**, leveragin
 
 ---
 
-## 🧱 Patterns Used
+##  Patterns Used
 
-### ✅ CQRS (via MediatR)
+### CQRS (via MediatR)
 
 * Command & Query handlers for write/read separation
 * Better scaling and testing support
 
-### ✅ GDRS (Generic Data Request Separation)
+###  GDRS (Generic Data Request Separation)
 
 * Reusable interfaces for `ICommand`, `IQuery`, and `IEventPublisher`
 * Promotes loosely coupled design
 
 ---
 
-## 🔧 Configuration
+##  Configuration
 
 ### PostgreSQL (default)
 
@@ -65,7 +65,7 @@ Redis:ConnectionString=localhost:6379
 
 ---
 
-## 🐳 Running via Docker
+##  Running via Docker
 
 ```bash
 docker-compose up --build
@@ -77,7 +77,7 @@ Swagger UI: `http://localhost:5000/swagger`
 
 ---
 
-## 📝 Logging with Serilog
+##  Logging with Serilog
 
 * Output to console with timestamps, log levels, structured messages
 * Extendable to file, Seq, or ElasticSearch
