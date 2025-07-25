@@ -84,13 +84,13 @@ Swagger UI: `http://localhost:5000/swagger`
 
 ---
 
-## 📤 CSV Export
+## CSV Export
 
 * Export quiz results with headers, answers, timestamps
 * Formats: `CSV`, `JSON`
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 Made by Saba Burduli
