@@ -3,6 +3,7 @@ using Domain.Entities.Questions;
 using Domain.Repository;
 using MediatR;
 
+
 namespace Application.Questions.CommandHandlers;
 
 internal sealed class CreateQuestionHandler : IRequestHandler<CreateQuestion, Question>
