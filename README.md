@@ -1,5 +1,4 @@
 
-
 # Quiz/Poll Real-Time API
 
 A powerful, scalable Quiz & Poll backend API built with **ASP.NET 9**, leveraging **CQRS**, **SignalR**, **Redis**, **PostgreSQL**, and **Docker**. This project supports anonymous and authenticated voting, real-time updates, analytics, and response exports.
